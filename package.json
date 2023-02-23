@@ -4,6 +4,7 @@
   "description": "Criar uma api rest para helptask",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -16,6 +17,9 @@
     "cors": "^2.8.5",
     "express": "^4.18.1",
     "mysql": "^2.18.1",
-    "nodemon": "^2.0.19"
+    "nodemon": "^2.0.19",
+    "socket.io": "^4.6.1",
+    "websocket": "^1.0.34",
+    "ws": "^8.12.1"
   }
 }
